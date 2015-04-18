@@ -7,9 +7,9 @@ fs.readFile('wolkenkratzer.json', function(error, data){
 	data = JSON.parse(data.toString());
 	
 	for(var i in data.wolkenkratzer){
-		console.log(data.wolkenkratzer[i].name);
-		console.log(data.wolkenkratzer[i].stadt);
-		console.log(data.wolkenkratzer[i].hoehe);
+		console.log(chalk.green(data.wolkenkratzer[i].name));
+		console.log(chalk.green(data.wolkenkratzer[i].stadt));
+		console.log(chalk.green(data.wolkenkratzer[i].hoehe));
 		console.log("------");
 	}
 	
