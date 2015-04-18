@@ -1,0 +1,14 @@
+{
+	"name": "wba2",
+	"version": "0.2.0",
+	"description": "Lösungen zum Kurs Wba2",
+	"main": "app.js",
+	"repository" :{ 
+		"type":"git",
+		"url": "https://github.com/thuascgn/wba2.git" 
+	},
+	"dependencies" :{
+		"fs":"latest",
+		"chalk":"latest"	
+	}
+}
