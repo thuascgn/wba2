@@ -1,6 +1,5 @@
 var fs 		= require('fs');
 var chalk 	= require('chalk');
-var sort = [];
 var filename = 'wolkenkratzer.json';
 
 fs.readFile('wolkenkratzer.json', function(read_error, data){
